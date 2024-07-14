@@ -72,3 +72,7 @@ Hierarchical relationships are a special type of lookup relationship. **The main
 |Re-parenting is not possible here. Needs extra handling to achieve this.|Re-parenting can be stopped so that parent record cannot be changed on child records.|
 |On child object we can have sharing rules, manual sharing, queues, etc independently & has no dependency on parent.|Detail objects of a master-detail relationship cannot have sharing rules, manual sharing or queues as these require owner field.|
 |To implement this relationship there are no limitations of existing or non-existing records in child object.| To implement this realtionship no records should exist in the child object. If a child record exists then first lookup relationship has to be created & then lookup parent has to be populated on child records. Then lookup will be converted into Master-Detail Relationship.|
+
+# Schema Builder
+
+Schema Builder is a tool that lets you visualize and edit your data model. It’s useful for designing and understanding complex data models.

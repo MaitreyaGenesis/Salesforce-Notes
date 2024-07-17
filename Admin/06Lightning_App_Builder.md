@@ -18,14 +18,14 @@ Lightning pages support these components:
 - Custom Home pages containing the components and features that your users use most
 
 **Lightning App UI**
-1. Header - shows you its label, and contains a Pages list where you can see the last 10 pages that you modified, also shows the app name and contains an App Settings tab where you can configure the app’s options such as branding, navigation, and the utility bar. In an app context, the Pages list shows all active Lightning pages associated with the current app.
-2. Toolbar - Use the buttons in the toolbar to cut Cut, copy Copy, and paste Paste page content; and to undo Undo, redo Redo, save, or activate your Lightning page. You can also view your page in different formats, refresh the canvas, or adjust the canvas size to fit your view.
-3. Component Palette - contains all standard and custom Lightning components that are supported for your Lightning page
-4. Lightning Page Canvas- area to build your page
-5. Properties Pane - shows either the overall page properties or the properties of the component that you’ve selected
+1. **Header** - shows you its label, and contains a Pages list where you can see the last 10 pages that you modified, also shows the app name and contains an App Settings tab where you can configure the app’s options such as branding, navigation, and the utility bar. In an app context, the Pages list shows all active Lightning pages associated with the current app.
+2. **Toolbar**- Use the buttons in the toolbar to cut Cut, copy Copy, and paste Paste page content; and to undo Undo, redo Redo, save, or activate your Lightning page. You can also view your page in different formats, refresh the canvas, or adjust the canvas size to fit your view.
+3. **Component Palette**- contains all standard and custom Lightning components that are supported for your Lightning page
+4. **Lightning Page Canvas**- area to build your page
+5. **Properties Pane** - shows either the overall page properties or the properties of the component that you’ve selected
 
 **Lightning Page Types**:
 
-1. App Page - Use an app page to create a home page for a third-party app that you can add directly into the Salesforce mobile app and Lightning Experience navigation menus. 
-2. Home Page - Create Home pages with features relevant to specific types of users, and assign the customized pages to different apps or app-and-user-profile combinations. 
-3. Record Page - you can create a customized version of an object’s record page, tailoring it to your users’ needs. Custom record pages are supported in Lightning Experience and in the Salesforce mobile app. 
+1. **App Page** - Use an app page to create a home page for a third-party app that you can add directly into the Salesforce mobile app and Lightning Experience navigation menus. 
+2. **Home Page** - Create Home pages with features relevant to specific types of users, and assign the customized pages to different apps or app-and-user-profile combinations. 
+3. **Record Page** - you can create a customized version of an object’s record page, tailoring it to your users’ needs. Custom record pages are supported in Lightning Experience and in the Salesforce mobile app. 

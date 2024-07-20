@@ -6,7 +6,7 @@
 
 # Levels of Data Access
 
-You can configure access to data in Salesforce at four main levels.<br>
+You can configure access to data in Salesforce at *four* main levels.<br>
 
 1. **Organization**<br>
 At the highest level, you can secure access to your organization by maintaining a list of authorized *users, setting password policies, and limiting login access to certain hours and certain locations*.
@@ -24,10 +24,10 @@ At the highest level, you can secure access to your organization by maintaining 
 4. **Records**<br>
 - To control data with greater precision, you can allow particular users to view an object, but then restrict the individual object records they're allowed to see. 
 - For example, record-level access allows interviewers to see and edit their own reviews, without exposing the reviews of other interviewers. 
-- You set the default level of access that users have to each others’ records using organization-wide defaults. 
+- You set the default level of access that users have to each others’ records using **organization-wide defaults**. 
 - Then, you can use the *role hierarchy, sharing rules, manual sharing, and other sharing features* to open up access to records.<br>
 
-Let’s take a closer look at two features used to configure data access: *permission sets and organization-wide defaults*.
+Let’s take a closer look at two features used to configure data access: **permission sets and organization-wide defaults**.
 
 **Permission Sets**<br>
 - Permission sets are collections of settings and permissions that determine what users can do in Salesforce. 
@@ -53,6 +53,7 @@ You can determine the organization-wide defaults by answering the following ques
 Based on your answers to these questions, you can set the sharing model for that object to one of the following settings.<br>
 
 |**Field**|**Description**|
+|---------|---------------|
 |**Private**|Only the record owner, and users above that role in the hierarchy, can view, edit, and report on those records.|
 |**Public Read Only**|All users can view and report on records but not edit them. Only the owner, and users above that role in the hierarchy, can edit those records.|
 |**Public Read/Write**|All users can view, edit, and report on all records.|

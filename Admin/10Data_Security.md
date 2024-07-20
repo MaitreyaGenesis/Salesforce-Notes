@@ -9,6 +9,7 @@
 You can configure access to data in Salesforce at *four* main levels.<br>
 
 1. **Organization**<br>
+
 At the highest level, you can secure access to your organization by maintaining a list of authorized *users, setting password policies, and limiting login access to certain hours and certain locations*.
 
 2. **Objects**<br>

@@ -29,3 +29,25 @@ Lightning pages support these components:
 1. **App Page** - Use an app page to create a home page for a third-party app that you can add directly into the Salesforce mobile app and Lightning Experience navigation menus. 
 2. **Home Page** - Create Home pages with features relevant to specific types of users, and assign the customized pages to different apps or app-and-user-profile combinations. 
 3. **Record Page** - you can create a customized version of an object’s record page, tailoring it to your users’ needs. Custom record pages are supported in Lightning Experience and in the Salesforce mobile app. 
+
+# Dynamic Forms
+
+Dynamic Forms takes the Lightning App Builder to a whole new level. It lets you, the Salesforce admin, build highly flexible and dynamic experiences your users will love by configuring record detail fields and sections inside the Lightning App Builder.
+
+**Dynamic Forms gives you:**
+
+**An instant upgrade from page layouts**: Place fields and sections wherever you want.
+**Dynamic layouts**: Use visibility rules to show and hide fields and sections.
+**Simpler layout management**: 
+    Manage the fields and sections on your pages in the Lightning App Builder without touching the page layout editor.
+    Reduce the number of page layouts and record types you need by defining component visibility rules.
+    Assign a Lightning page without having to assign a page layout too.
+
+**How Does Dynamic Forms Work?**
+
+Dynamic Forms adds a new tab to the component pane: Fields. The Fields tab contains the Field Section component and a list of fields. You can put a Field Section component anywhere on the page, and you can put fields anywhere within a Field Section component.
+
+**You can start using Dynamic Forms in two ways:**
+
+- Create a fresh Lightning record page. Then, click the Fields tab in the Lightning App Builder component pane, and start dragging sections and fields anywhere you want them on the page.
+- Open an existing record page and with just a few clicks, migrate its record details using the Dynamic Forms migration wizard.

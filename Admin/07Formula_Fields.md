@@ -1,0 +1,3 @@
+# What is Formula Field?
+What if you wanted to calculate how many days are left until an opportunity’s close date? You can create a simple formula field that automatically calculates that value. By adding the value to the Opportunity page layout, your users can quickly access this key information. You can also add this field to reports and list views for instant access.<br>
+A formula field in Salesforce is a **read-only**field that automatically calculates its value based on other fields or expressions. It’s similar to formulas in spreadsheets and can be used to perform calculations, concatenate text, or display data from related records.

@@ -21,7 +21,4 @@ You can access objects from the navigation bar. Select any record to drill into 
 * **List views** allow you to see records that are important to you. Using filters, you and your sales reps can create customized lists of accounts, contacts, opportunities, or other records in Salesforce. <br>For example, a sales rep can create a list view of opportunities they own and add a filter on amount, to help them find their biggest deals in the pipeline.<br>
 * Sales reps can use the **Opportunity Kanban**, a visualization tool for opportunities, to review deals organized by each stage in the pipeline. With drag-and-drop functionality, sales reps can move deals from one stage to another, and get personalized alerts on key deals in flight.<br>
 
-# Reports and Dashboards
-
-Similar to list views, reports are a list of records that meet the criteria you define. But unlike list views, with reports you can apply more complex filtering logic, summarize and group your data, perform calculations, and create more sophisticated visualizations of your data using dashboards.
 * When you convert the Lead, you create an Account and Contact along with the Opportunity.

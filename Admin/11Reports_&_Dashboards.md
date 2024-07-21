@@ -42,3 +42,50 @@ Now that you’ve built a filter, let’s go to the next level with cross filter
 
 # Use Filter Logic
 Filter logic lets you apply filters based on conditions. Say that Erin wants to focus her sales activities this week on all her open opportunities that have a reasonable probability of closing or that have a high enough amount to warrant some extra effort.  
+
+# Report Formats
+
+There are *three* report formats available: **Tabular, Summary, and Matrix.** *Tabular is the default format.*
+
+|**Report Format**|	**Primary Use Case**|**Supported in Dashboards**|**Report Charts Supported**|**Bucket Fields**	|**Formulas**	|**Cross-Object Formulas**|
+|----------|----------|-----------|-------------|----------|----------|-----------|
+|**Tabular**|	Make a list|`tick`*| |`tick`| | |	
+|**Summary**|	Group and summarize|`tick`|`tick`|`tick`|`tick`| |	
+|**Matrix**|	Group and summarize, by row and column	|`tick`|`tick`|`tick`|`tick`| |
+* Row limit required.
+
+# Tabular Reports
+Tabular reports are the simplest and fastest way to look at your data. Similar to a spreadsheet, they consist simply of an ordered set of fields in columns, with each matching record listed in a row. They're often best used for tasks like generating a mailing list. When Lincoln asked Maria for a report of all open opportunities, Maria knew that a tabular report would fit the bill.
+
+# Summary Reports
+Summary reports are similar to tabular reports, but also allow you to group rows of data, view subtotals, and create charts. Summary reports give us many more options for organizing the data, and are great for use in dashboards. Yes!
+
+Summary reports are the workhorses of reporting—most people find that most of their reports tend to be of this format.
+
+# Matrix Reports
+Matrix reports allow you to group records both by row and by column. These reports are the most time-consuming to set up, but they also provide the most detailed view of your data.
+
+So why would you want to use a matrix report? If you’re looking for an at-a-glance overview of data, especially for something like totals of revenue or quantity of products sold, then the matrix report format is for you.
+
+# Create Dashboards
+Salesforce dashboards present multiple reports side-by-side using dashboard widgets on a single dashboard page layout. Dashboard widgets come in various chart types, tables, metrics, and gauges, and you can customize how data is grouped, summarized, and displayed for each widget. The dashboard builder is an intuitive interface for building dashboards from source reports you’ve created in Salesforce.
+
+In addition to dashboards, you also have options to add charts to reports and record page layouts.
+
+# Dashboard Builder
+Dashboard builder is your way to visualize your data for easy consumption at-a-glance. Launch the dashboard builder from the Dashboards tab by clicking New Dashboard. Enter a name for your dashboard, and click Create.
+
+# Use Dynamic Dashboards
+With dynamic dashboards, each user sees the data they have access to without needing to create separate dashboards for each user.
+
+This means a single powerful dashboard can be used for multiple users in your company, because the logged-in user viewing the dashboard sees the data they should see, based on their security and sharing settings.
+
+|**Role**|	**Total Bookings**	|**Close Rates by Competitor**|	**Number of Activities by Meeting Type**|
+|--------|----------------------|-----------------------------|-----------------------------------------|
+|Sales Rep|`tick`|	|`tick`|
+|Check icon|`tick`|`tick`||
+|Sales Manager|`tick`|`tick`||	
+|VP of Sales|`tick`|`tick`||
+
+# Report Charts
+If you don’t want to create a dashboard, but just want to add a chart to your report, then report charts may be right for you. Report charts allow you to place a single chart right at the top of your report, so that when you view the report, you can see the chart and the report results in one view.

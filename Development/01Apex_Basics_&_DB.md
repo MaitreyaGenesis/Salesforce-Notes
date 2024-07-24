@@ -47,17 +47,17 @@ Lists hold an ordered collection of data of the same type.<br>
 
 **Adding elements in a List:**
 
-\`
+```
 // Create a list and add elements to it in one step
 List<String> colors = new List<String> { 'red', 'green', 'blue' };
 // Add elements to a list after it has been created
 List<String> moreColors = new List<String>();
 moreColors.add('orange');
 moreColors.add('purple');
-\`
+```
 
 **Iteration over a List:**
-\```
+```
 // Get elements from a list
 String color1 = moreColors.get(0);
 String color2 = moreColors[0];
@@ -68,7 +68,7 @@ for(String color : moreColors) {
     // Write value to the debug log
     System.debug(color);
 }
-\```
+```
 
 # Apex Classes
 One of the benefits of Apex classes is code reuse. Class methods can be called by triggers and other classes.

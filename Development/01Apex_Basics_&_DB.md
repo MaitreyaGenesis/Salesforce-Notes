@@ -42,19 +42,19 @@ Apex is a programming language that uses Java-like syntax and acts like database
 4. **Enum**
 
 # Apex Collections: List
-Lists hold an ordered collection of data of the same type.
+Lists hold an ordered collection of data of the same type.<br>
 ```List<String> colors = new List<String>();```
 
 **Adding elements in a List:**
 
-\```
+\`
 // Create a list and add elements to it in one step
 List<String> colors = new List<String> { 'red', 'green', 'blue' };
 // Add elements to a list after it has been created
 List<String> moreColors = new List<String>();
 moreColors.add('orange');
 moreColors.add('purple');
-\```
+\`
 
 **Iteration over a List:**
 \```

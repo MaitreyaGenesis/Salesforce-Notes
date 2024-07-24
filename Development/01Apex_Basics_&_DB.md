@@ -72,3 +72,17 @@ for(String color : moreColors) {
 
 # Apex Classes
 One of the benefits of Apex classes is code reuse. Class methods can be called by triggers and other classes.
+
+# Get started with Apex Trailhead
+```
+public class StringListTest {
+        public static List<String> generateStringList(Integer n) {
+        List<String> TestList = new List<String>();
+        for(Integer i=0;i<n;i++) {
+            TestList.add('Test ' + i);
+            System.debug(TestList[i]);
+        }
+    return TestList;
+    }
+}
+```

@@ -40,8 +40,8 @@ To access the records that caused the trigger to fire, use context variables. Fo
 |`isDelete`|Returns `true` if this trigger was fired due to a delete operation, from the Salesforce user interface, Apex, or the API.|
 |`isBefore`|Returns `true` if this trigger was fired before any record was saved.|
 |`isAfter`|Returns `true` if this trigger was fired after all records were saved.| 
-|`isUndelete`|Returns `true` if this trigger was fired after a record is recovered from the Recycle Bin.<br>  
-This recovery can occur after an undelete operation from the Salesforce user interface, Apex, or the API.|
+|`isUndelete`|Returns `true` if this trigger was fired after a record is recovered from the Recycle Bin. 
+                 This recovery can occur after an undelete operation from the Salesforce user interface, Apex, or the API.|
 |`new`|Returns a list of the new versions of the sObject records.<br>
         This sObject list is only available in `insert`, `update`, and undelete triggers, and the records can only be modified in before triggers.|
 |`newMap`|A map of IDs to the new versions of the sObject records.<br>

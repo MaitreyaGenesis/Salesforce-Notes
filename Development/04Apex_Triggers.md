@@ -45,8 +45,7 @@ To access the records that caused the trigger to fire, use context variables. Fo
 |`newMap`|A map of IDs to the new versions of the sObject records.This map is only available in `before update`, `after insert`, `after update`, and `after undelete` triggers.|
 |`old`|Returns a list of the old versions of the sObject records.This sObject list is only available in `update` and `delete` triggers.|
 |`oldMap`|A map of IDs to the old versions of the sObject records.This map is only available in `update` and `delete` triggers.|
-|`operationType`|Returns an enum of type System.TriggerOperation corresponding to the current operation.
-Possible values of the `System.TriggerOperation` enum are: `BEFORE_INSERT`, `BEFORE_UPDATE`, `BEFORE_DELETE`, `AFTER_INSERT`, `AFTER_UPDATE`, `AFTER_DELETE`, and `AFTER_UNDELETE`. If you vary your programming logic based on different trigger types, consider using the switch statement with different permutations of unique trigger execution enum states.|
+|`operationType`|Returns an enum of type System.TriggerOperation corresponding to the current operation.Possible values of the `System.TriggerOperation` enum are: `BEFORE_INSERT`, `BEFORE_UPDATE`, `BEFORE_DELETE`, `AFTER_INSERT`, `AFTER_UPDATE`, `AFTER_DELETE`, and `AFTER_UNDELETE`. If you vary your programming logic based on different trigger types, consider using the switch statement with different permutations of unique trigger execution enum states.|
 |`size`|The total number of records in a trigger invocation, both old and new.|
 
 # Calling a Class Method from a Trigger
